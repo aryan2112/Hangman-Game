@@ -1,6 +1,6 @@
 import random
 import time
-
+#hangman
 # Initial Steps to invite in the game:
 print("\nWelcome to Hangman game by DataFlair\n")
 name = input("Enter your name: ")

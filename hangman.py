@@ -7,7 +7,6 @@ print("Hello " + name + "! Best of Luck!")
 time.sleep(2)
 print("The game is about to start!\n Let's play Hangman!")
 time.sleep(3)
-# The parameters we require to execute the game:
 def main():
     global count
     global display
@@ -23,9 +22,6 @@ def main():
     display = '_' * length
     already_guessed = []
     play_game = ""
-
-# A loop to re-execute the game when the first round ends:
-
 def play_loop():
     global play_game
     play_game = input("Do You want to play again? y = yes, n = no \n")

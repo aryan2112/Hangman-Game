@@ -1,7 +1,7 @@
 import random
 import time
-#hangman
-print("\nWelcome to Hangman game by DataFlair\n")
+
+print("\nwelcome to Hangman game by DataFlair\n")
 name = input("Enter your name: ")
 print("Hello " + name + "! Best of Luck!")
 time.sleep(2)
